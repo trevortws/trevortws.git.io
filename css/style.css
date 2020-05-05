@@ -1,0 +1,60 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+  margin-left:5%;
+  margin-right: 5%;
+}
+hr{
+  width: 80%;
+}
+h1{
+  color: #9e2bab;
+}
+.social-link a{
+  text-decoration: none;
+  }
+.social-link i{
+  font-size: 1.5em;
+  margin: 10px 20px 0px 0px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  left: 20%;
+  text-align: center;
+}
+footer h1{
+  font-size: 1.5em;
+}
+nav{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+
+}
+.navitem{
+  margin: 10px;
+}
+#home-button{
+  color: #7b2085;
+  border: solid #7b2085;
+  padding: 5px 10px 5px 5px;
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+
+
+}
+#home-button:hover{
+  background-color:#dcdcdc;
+}
+#downloadResume{
+  float: right;
+  margin-right: 30px;
+  font-size: 1em;
+
+}
+#email-link{
+  float: right;
+  font-size: 1em;
+
+}

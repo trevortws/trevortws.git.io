@@ -1,0 +1,67 @@
+div.describtion{
+  display: grid;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  grid-auto-columns: 5em 17em 17em 17em 17em;
+}
+img.describtion{
+  grid-column-start: 2;
+  grid-column-end:3;
+  max-width:  17em;
+  margin-top: 25%;
+}
+div.describtion-container{
+  margin-top: 10%;
+  grid-column-start: 3;
+  grid-column-end:6;
+  margin-left: 30px;
+}
+.describtion-container h1{
+  font-size: 3em;
+}
+p{
+  display:inline;
+}
+.projects-card{
+  margin: 2% 0%;
+  padding: 7% 7% 7% 7%;
+  display: grid;
+}
+
+.projects-card-describtion{
+  grid-column-start:2;
+  grid-column-end:3;
+  color:white;
+  margin: 0 0 0 7%;
+}
+#projects{
+  margin: 5% 20%;
+}
+#projects h1 {
+  text-align: center;
+}
+#app8-logo{
+  max-height: 20vw;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#app8{
+  background-color: #8f001a;
+
+}
+#app8 p{
+  color:white;
+  font-size:0.8vw;
+}
+#app8 h2{
+  color:white;
+  font-size: 1.5vw;
+}
+#app8 button{
+  font-size: 0.95em;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+}
+#uottawa{
+  background-color: blue;
+}
