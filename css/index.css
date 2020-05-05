@@ -52,11 +52,11 @@ p{
   background-color: #8f001a;
 
 }
-#app8 p{
+.project-card-describtion p{
   color:white;
   font-size:0.8vw;
 }
-#app8 h2{
+.project-card-describtion h2{
   color:white;
   font-size: 1.5vw;
 }
