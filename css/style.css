@@ -27,7 +27,8 @@ footer h1{
   font-size: 1.5em;
 }
 nav{
-  margin-top: 2%;
+  padding: 1% 0;
+  background-color: white;
   display: flex;
   justify-content: center;
 
@@ -56,5 +57,4 @@ nav{
 #email-link{
   float: right;
   font-size: 1em;
-
 }

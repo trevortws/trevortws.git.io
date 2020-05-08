@@ -2,12 +2,13 @@ div.describtion{
   display: grid;
   margin-top: 2%;
   margin-bottom: 2%;
-  grid-auto-columns: 5em 17em 17em 17em 17em;
+  grid-auto-columns: 5vw 17vw 17vw 17vw 17vw;
+  width: auto;
 }
 img.describtion{
   grid-column-start: 2;
   grid-column-end:3;
-  max-width:  17em;
+  max-width:  17vw;
   margin-top: 25%;
 }
 div.describtion-container{
@@ -17,7 +18,10 @@ div.describtion-container{
   margin-left: 30px;
 }
 .describtion-container h1{
-  font-size: 3em;
+  font-size: 3.5vw;
+}
+.describtion-container h2{
+  font-size: 1.5vw;
 }
 p{
   display:inline;
