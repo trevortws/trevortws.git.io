@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Fugaz+One|Baloo+Tamma+2|Bangers|Comic+Neue|Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Carter+One|Fugaz+One|Kaushan+Script|Permanent+Marker|Press+Start+2P|Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/project-parking.css">
+
     <script src="https://kit.fontawesome.com/1c7f5892f1.js" crossorigin="anonymous"></script>
     <title>Trevor Siu</title>
   </head>
@@ -17,16 +19,61 @@
       </nav>
     </div>
     <div class="project-content">
-      <h1>Digital Parking Meter</h1>
-      <h2>Problem Trying address</h2>
-      <div class="">
-        Creating a touch screen parking meter that accommodates 6 parking spots.
-        Allowing drivers to pay for parking with cash, debit, credit card and parking attendant to spot  parking violations easily.
-        <h3>The constraints</h3>
-        This device is not connected to the internet or any bluetooth device and it’s a single touchscreen with now zoon, hard touch and advanced touchscreen functionality supported.
-
+      <div style="text-align:center">
+        <h1>Digital Parking Meter</h1>
+        <p style="color:grey">May, 2020</p>
+        <div style="margin:0% 10%">
+          A touch screen parking meter that allows drivers to pay parking with cash, debit/credit card and parking attendant to spot parking violations easily.
+        </div>
       </div>
-      <h2>Design Procress</h2>
+      <hr>
+      <div class="constraints">
+        <h3>Constraints</h3>
+        <ol>
+          <li>The device needs to accomadate 6 parking spots.</li>
+          <li>The device is not connected to the internet or any bluetooth device.</li>
+          <li>The device has a single touchscreen with no zoom, hard touch and advanced touchscreen functionality supported.</li>
+        </ol>
+      </div>
+      <hr>
+      <div>
+        <h2>Design Procress</h2>
+        <h3>1. Identifying User Goals</h3>
+        There are 2 main user types: Drivers and Parking attendant
+        <div class="user-goals">
+          <div class="drivers-goals">
+            <h3>Drivers' Goals</h3>
+            <img src="./src/parking-meter/man.png"style="height:10vh" title="Icons made by Nikita Golubev from www.flaticon.com"alt="something">
+            <div class="icon-ref">Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
+            <ul>
+              <li>Add time to the correct spot</li>
+              <li>Extend their time</li>
+              <li>See how much time is left</li>
+              <li>Pay with cash or credit/debit</li>
+              <li>Print out receipts</li>
+            </ul>
+          </div>
+          <div class="attendants-goals">
+            <h3>Parking attendant's Goals</h3>
+            <img src="./src/parking-meter/avatar.png" style="height:10vh"alt="">
+            <div class="icon-ref">Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <ul>
+              <li>Spots out parking violations</li>
+            </ul>
+          </div>
+        </div>
+        <h3>2. Analysing Current Solution</h3>
+          <h4>Drivers' Frustrations</h4>
+          <ul>
+            <li>Not really sure if they need to pay when it's outside paying hours or during weekends</li>
+            <li>Instruction are unclear sometimes. Not sure if select time first or swpit card or insert coins</li>
+          </ul>
+          <h4>Parking attendants' Frustrations</h4>
+          <ul>
+            <li>To spot out parking violation, they need to go up to each car and try to find the reciept on their dashboard</li>
+            <li>Sometime there is multiple reciept and takes time to identify the right one</li>
+          </ul>
+      </div>
       <h2>Solution</h2>
       Followed the design language of the app to minimize changes the development team need to make.
       <a href="#">Online Clickable Protoype</a> <br>
@@ -34,7 +81,7 @@
         <iframe width="384" height="512" style="border: 1px solid black;"src="https://xd.adobe.com/embed/c7cfa320-206a-4280-70bf-aa55af6056e9-b1fe/" frameborder="0" allowfullscreen></iframe>
       </div>
       <h2>Reflection</h2>
-      <a href="./index.html"><-- Back to Home page</a>
+      <a href="./index.html#projects"><-- Back to Home page</a>
     </div>
     <hr>
     <footer>

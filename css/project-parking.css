@@ -1,0 +1,13 @@
+.user-goals{
+  display: grid;
+  grid-auto-columns: 50% 50%;
+}
+.drivers-goals{
+  grid-column-start:1;
+}
+.attendants-goals{
+  grid-column-start: 2;
+}
+.icon-ref{
+  font-size: 0.5em;
+}
