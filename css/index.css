@@ -26,6 +26,7 @@ p{
   margin: 2% 0%;
   padding: 7% 7% 7% 7%;
   display: grid;
+  border-radius: 5px;
 }
 
 .projects-card-describtion{
